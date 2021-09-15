@@ -1,0 +1,13 @@
+{
+    "name": "sebastian/felix-trujillo",
+    "authors": [
+        {
+            "name": "sebas07casti",
+            "email": "sebas07casti@gmail.com"
+        }
+    ],
+    "require": {
+        "jasongrimes/paginator": "~1.0",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

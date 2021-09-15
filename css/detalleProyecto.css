@@ -1,0 +1,180 @@
+/*Detalle Proyectos*/
+.rtejustify {
+    text-align: justify;
+}
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+#myCarousel .item .imagen
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #35353D; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #35353D; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #35353D; }
+.nav-pills>li[data-slide-to="3"].active a { background-color: #35353D; }
+#mapaFilter{
+    width: 100%;
+    height: 500px;
+}
+.iframeVideo{
+    width: 100%;
+    height: 500px;
+}
+.hoverMore{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.table{
+    display: table;
+    height: 100%;
+}
+.tableCell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+}
+.galleryFotos:hover .hoverMore{
+    display: block;
+}
+@media (max-width: 991px){
+    #mapaFilter{
+        width: 100%;
+        height: 300px;
+    }
+    .iframeVideo{
+        width: 100%;
+        height: 300px;
+    }
+
+    #myCarousel .item .imagen
+    {
+        width: 100%;
+        height: 300px;
+    }
+}
+#caracproyecto{
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+#map{
+    height: 300px;
+    width: 100%;
+    z-index: 20;
+}
+#caracproyecto .iconCarac{
+    display: inline-flex;
+    min-height: 100%;
+    border-radius: 50%;
+    border: solid gray 1px;
+    font-size: 22px;
+    width: 60px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+}
+#caracproyecto .iconCarac i{
+    width: 22px;
+    height: 25px;
+    text-align: center;
+}
+#caracproyecto .iconCarac.price{
+    padding: 18px 25px;
+}
+#caracproyecto .textCarac{
+    display: inline-block;
+    width: 50%;
+    margin-left: 15px;
+    font-size: 13px;
+}
+#caracproyecto .textCarac span{
+    font-weight: bold;
+}
+#caracproyecto .textCarac p{
+    margin: 0;
+}
+
+
+#caracespeproyectos{
+    padding-top: 40px;
+    background-color: #f6f6f6;
+}
+.cd-section {
+    min-height: 100%;
+    position: relative;
+    padding: 2em 0;
+}
+#caracespeproyectos .titleCaracEspec h3{
+    color: #00913D;
+    font-weight: bold;
+}
+#caracespeproyectos p {
+    color: #666;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+#caracespeproyectos #infocaracter p {
+    font-size: 18px; 
+}
+#caracespeproyectos ul {
+    list-style: none;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+}
+#caracespeproyectos #infocaracter ul {
+    list-style: none;
+    line-height: 1.8em;
+    font-size: 18px;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+#caracespeproyectos #infocaracter li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    vertical-align: top;
+    line-height: 27px;
+}
+#caracespeproyectos #infocaracter li:before {
+    content: "\25CF";
+    color: #00913D;
+    font-size: 1em;
+    padding-right: 10px;
+}
+#caracespeproyectos .titleZonasComunes h5{
+    color: #00913D;
+    font-size: 20px;
+    font-weight: bold;
+}

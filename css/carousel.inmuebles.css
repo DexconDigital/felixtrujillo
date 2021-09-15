@@ -1,0 +1,53 @@
+/* //estilos Carrousel */
+.carousel-inner{
+    height: 199px;
+    text-align: center;
+    background: rgba(255,255,255,1);
+    border: 1px solid #aeaeae;
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: contain;
+}
+.full-propertys-img{
+    padding: 3px 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: #fff;
+    bottom: 5%;
+    left: 5%;
+    z-index: 10;
+}
+.full-propertys-img a{
+    color: #fff !important;
+}
+@media (min-width: 576px) {
+    .carousel-inner{
+        height: 230px;
+    }
+}
+@media (min-width: 768px) {
+    .carousel-inner{
+        height: 500px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .carousel-inner{
+        height: 510px;
+    }
+}
+@media (min-width: 1200px) {
+    .carousel-inner{
+        height: 520px;
+    }
+}
+@media (min-width: 1600px) {
+    .carousel-inner{
+        height: 700px;
+    }
+}

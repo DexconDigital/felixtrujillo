@@ -1,0 +1,279 @@
+.amount, .amountA{
+    color: black !important;
+}
+.jumbotronn h1{
+    /*background-color: #35353D;   */
+    color: black !important;
+}
+.imgProyectBack{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}
+h2 {
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
+#headJumbotron {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#headJumbotron .viewHead {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+#headJumbotron .viewFoot .viewRigth {
+    display: block;
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+#headJumbotron .viewHead h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0;
+    text-transform: inherit;
+}
+#headJumbotron .viewFoot .viewRigth a {
+    border: none;
+    color: #666666;
+    background: transparent;
+    box-shadow: none;
+    font-weight: bold;
+}
+#headJumbotron .viewFoot .viewRigth a.active, #headJumbotron .viewFoot .viewRigth a:hover {
+    color: #fff;
+    background: transparent;
+}
+/*img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}*/
+#list-proyects .infoProyect {
+    height: 330px;
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+#list-proyects .infoProyect:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+}
+#list-proyects .infoProyect > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#list-proyects .infoProyect > a.imgProyectBack {
+    opacity: 0.2;
+    transition: all 0.3s ease-Out;
+    z-index: 3;
+    position: absolute;
+}
+#list-proyects .infoProyect:hover > a.imgProyectBack {
+    opacity: 0.7;
+}
+#list-proyects .infoProyect .contentInfoProy {
+    color: #fff;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+#list-proyects .infoProyect .contentInfoProy .titleContentPro {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 0px;
+    width: 60%;
+}
+#list-proyects .infoProyect .contentInfoProy .titleContentPro h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+#list-proyects .infoProyect .contentInfoProy .titleContentPro h2 a {
+    color: #fff;
+}
+#list-proyects .infoProyect .contentInfoProy .titleContentPro p {
+    color: #D4D2D2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 20px 20px;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    float: left;
+    width: auto;
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy span {
+    color: #bebebe;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 2px;
+    display: block;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy .contentArea {
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    float: left;
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: auto;
+    position: relative;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy span {
+    color: #bebebe;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 2px;
+    display: block;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy p {
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    float: left;
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: auto;
+    position: relative;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy span {
+    color: #bebebe;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 2px;
+    display: block;
+}
+#list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy p {
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+@media only screen and (max-width: 480px) {
+
+    #list-proyects .infoProyect .logproybus img {
+        width: 50px !important;
+    }
+
+    #list-proyects .infoProyect .contentInfoProy {
+        height: 80% !important;
+    }
+
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy,
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy,
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy {
+        width: 50%;
+    }
+
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy span,
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy span,
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .precioProy span {
+        margin-bottom: 5px;
+    }
+
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .areaProy,
+    #list-proyects .infoProyect .contentInfoProy .princiInfoContentPro .habiProy {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+
+    .contentInfoProy {
+        height: 70% !important;
+    }
+
+    .contentInfoProy .titleContentPro h2 {
+        font-size: 18px !important;
+    }
+
+    .contentInfoProy .titleContentPro p {
+        font-size: 12px !important;
+    }
+
+    .princiInfoContentPro {
+        padding: 0px 20px 5px !important;
+    }
+}
+@media (max-width: 991px){
+    #headJumbotron .viewHead{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #headJumbotron .viewFoot{
+        text-align: center;
+    }
+    #headJumbotron .viewFoot .viewRigth {
+        display: inline-block;
+        float: inherit;
+    }
+} 
